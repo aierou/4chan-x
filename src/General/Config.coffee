@@ -125,6 +125,10 @@ Config =
         true
         'Activate the native extension\'s Flash embedding if the native extension is disabled.'
       ]
+      'Sort by Replies': [
+        false
+        'Comments are sorted by number of replies.'
+      ]
 
     'Linkification':
       'Linkify': [
@@ -600,7 +604,7 @@ Config =
       false
       'Advance to next post when contracting an expanded image.'
     ]
-  
+
   gallery:
     'Hide Thumbnails': [
       false
