@@ -498,7 +498,7 @@ Config =
         'Use the non-Javascript fallback captcha even if Javascript is enabled (Recaptcha v2 only).'
       ]
       'Pass Link': [
-        true
+        false
         'Add a 4chan Pass login link to the bottom of the page.'
       ]
 

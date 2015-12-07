@@ -334,8 +334,8 @@ Settings =
     if compareString < '00001.00011.00019.00003' and not Settings.overlay
       $.queueTask -> Settings.warnings.ads (item) -> new Notice 'warning', [item.childNodes...]
     if compareString < '00001.00011.00020.00000'
-      unless data['Inline Cross-thread Quotes Only']?
-        changes['Inline Cross-thread Quotes Only'] = false
+      for key, value of {'Inline Cross-thread Quotes Only': false, 'Pass Link': true}
+        changes[key] = value unless data[key]?
     changes
 
   loadSettings: (data, cb) ->
