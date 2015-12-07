@@ -377,6 +377,7 @@ Main =
     ['Quote Inlining',            QuoteInline]
     ['Quote Previewing',          QuotePreview]
     ['Quote Backlinks',           QuoteBacklink]
+    ['Post Sort',                 PostSort]
     ['Mark Quotes of You',        QuoteYou]
     ['Mark OP Quotes',            QuoteOP]
     ['Mark Cross-thread Quotes',  QuoteCT]
