@@ -1,9 +1,7 @@
 ReplySort =
-  sortedPosts: []
   init: ->
-    return if g.VIEW isnt 'thread' or !Conf['Sort by Replies']
-
-    @sortedPosts[0] = []
+    return unless Conf['Sort by Replies'] and g.VIEW is 'thread'
+    @sortedPosts: [[]]
     Post.callbacks.push
       name: 'Reply Sort'
       cb:   @node
